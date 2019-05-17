@@ -9,8 +9,8 @@ module FormsLab
        "Welcome to the Nested Forms Lab!"
     end 
     
-    get '/new' do 
-      # erb :'pirates/new'
+    get '/pirates/new' do 
+       erb :'pirates/new'
     end 
     
     post '/pirates/show' do 
