@@ -9,7 +9,7 @@ module FormsLab
        "Welcome to the Nested Forms Lab!"
     end 
     
-    get '/pirates/new' do 
+    get '/new' do 
        erb :'pirates/new'
     end 
     
